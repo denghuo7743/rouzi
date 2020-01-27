@@ -1,7 +1,7 @@
 ﻿document.onkeydown = function(){
 
     if(window.event && window.event.keyCode == 123) {
-        alert("不要扒网站啦");
+        alert("浏览器崩溃了");
         event.keyCode=0;
         event.returnValue=false;
     }
